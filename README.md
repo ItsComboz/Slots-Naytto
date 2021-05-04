@@ -1,0 +1,2 @@
+# Slots Naytto
+ Slot Game
