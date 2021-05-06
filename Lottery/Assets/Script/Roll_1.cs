@@ -6,12 +6,15 @@ using System;
 public class Roll_1 : MonoBehaviour
 {
 
-    public int Random;
+    public int Randomice;
 
     // Start is called before the first frame update
     void Start()
     {
-        
+
+        int DeNumber = UnityEngine.Random.Range(1, 101);
+        Randomice = DeNumber;
+
 
     }
 
@@ -29,8 +32,8 @@ public class Roll_1 : MonoBehaviour
     private void GenerateNumbers()
     {
 
-        int DeNumber = UnityEngine.Random.Range(0, 101);
-        Random = DeNumber;
+        int DeNumber = UnityEngine.Random.Range(1, 101);
+        Randomice = DeNumber;
 
     }
 }
