@@ -1,10 +1,15 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
+using TMPro;
+
 
 public class ScoreCount : MonoBehaviour
 {
-    public int Score;
+    public int Score = 0;
+    [SerializeField]
+    TextMeshPro TextPro;
 
     // Score Ammmounts
     public int Berrys = 20;
@@ -20,6 +25,10 @@ public class ScoreCount : MonoBehaviour
     {
     }
 
+    public void Update()
+    {
+        TextPro.text = Score.ToString();
+    }
 
     public void CountScore(ChanceTable Symbs)
     {
