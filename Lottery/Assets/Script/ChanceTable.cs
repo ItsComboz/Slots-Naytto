@@ -15,6 +15,78 @@ public class ChanceTable : MonoBehaviour
     public string Symbol8;
     public string Symbol9;
 
+    //Sylbols
+    public GameObject Berry1;
+    public GameObject Berry2;
+    public GameObject Berry3;
+    public GameObject Berry4;
+    public GameObject Berry5;
+    public GameObject Berry6;
+    public GameObject Berry7;
+    public GameObject Berry8;
+    public GameObject Berry9;
+
+    public GameObject Apple1;
+    public GameObject Apple2;
+    public GameObject Apple3;
+    public GameObject Apple4;
+    public GameObject Apple5;
+    public GameObject Apple6;
+    public GameObject Apple7;
+    public GameObject Apple8;
+    public GameObject Apple9;
+
+    public GameObject Orange1;
+    public GameObject Orange2;
+    public GameObject Orange3;
+    public GameObject Orange4;
+    public GameObject Orange5;
+    public GameObject Orange6;
+    public GameObject Orange7;
+    public GameObject Orange8;
+    public GameObject Orange9;
+
+    public GameObject Coin1;
+    public GameObject Coin2;
+    public GameObject Coin3;
+    public GameObject Coin4;
+    public GameObject Coin5;
+    public GameObject Coin6;
+    public GameObject Coin7;
+    public GameObject Coin8;
+    public GameObject Coin9;
+
+    public GameObject Diamond1;
+    public GameObject Diamond2;
+    public GameObject Diamond3;
+    public GameObject Diamond4;
+    public GameObject Diamond5;
+    public GameObject Diamond6;
+    public GameObject Diamond7;
+    public GameObject Diamond8;
+    public GameObject Diamond9;
+
+    public GameObject Ace1;
+    public GameObject Ace2;
+    public GameObject Ace3;
+    public GameObject Ace4;
+    public GameObject Ace5;
+    public GameObject Ace6;
+    public GameObject Ace7;
+    public GameObject Ace8;
+    public GameObject Ace9;
+
+    public GameObject Seven1;
+    public GameObject Seven2;
+    public GameObject Seven3;
+    public GameObject Seven4;
+    public GameObject Seven5;
+    public GameObject Seven6;
+    public GameObject Seven7;
+    public GameObject Seven8;
+    public GameObject Seven9;
+
+    //Rolls
     public Roll_1 noppa1;
     public Roll_1 noppa2;
     public Roll_1 noppa3;
@@ -24,7 +96,7 @@ public class ChanceTable : MonoBehaviour
     public Roll_1 noppa7;
     public Roll_1 noppa8;
     public Roll_1 noppa9;
-
+    
 
     public ScoreCount Score;
 
@@ -93,6 +165,71 @@ public class ChanceTable : MonoBehaviour
                 Symbol1 = "7";
             }
         }
+        {
+            if(Symbol1 == "Berry")
+            {
+                Berry1.SetActive(true);
+            }else
+            {
+                Berry1.SetActive(false);
+            }
+
+            if (Symbol1 == "Aples")
+            {
+                Apple1.SetActive(true);
+            }
+            else
+            {
+                Apple1.SetActive(false);
+            }
+
+            if (Symbol1 == "Coins")
+            {
+                Coin1.SetActive(true);
+            }
+            else
+            {
+                Coin1.SetActive(false);
+            }
+
+            if (Symbol1 == "Orange")
+            {
+                Orange1.SetActive(true);
+            }
+            else
+            {
+                Orange1.SetActive(false);
+            }
+
+            if (Symbol1 == "Diamond")
+            {
+                Diamond1.SetActive(true);
+            }
+            else
+            {
+                Diamond1.SetActive(false);
+            }
+
+            if (Symbol1 == "Ace")
+            {
+                Ace1.SetActive(true);
+            }
+            else
+            {
+                Ace1.SetActive(false);
+            }
+
+            if (Symbol1 == "7")
+            {
+                Seven1.SetActive(true);
+            }
+            else
+            {
+                Seven1.SetActive(false);
+            }
+
+
+        }
 
         //if (gameObject.CompareTag("2"))
         {
@@ -124,6 +261,69 @@ public class ChanceTable : MonoBehaviour
             {
                 Symbol2 = "7";
             }
+        }
+
+        if (Symbol2 == "Berry")
+        {
+            Berry2.SetActive(true);
+        }
+        else
+        {
+            Berry2.SetActive(false);
+        }
+
+        if (Symbol2 == "Aples")
+        {
+            Apple2.SetActive(true);
+        }
+        else
+        {
+            Apple2.SetActive(false);
+        }
+
+        if (Symbol2 == "Coins")
+        {
+            Coin2.SetActive(true);
+        }
+        else
+        {
+            Coin2.SetActive(false);
+        }
+
+        if (Symbol2 == "Orange")
+        {
+            Orange2.SetActive(true);
+        }
+        else
+        {
+            Orange2.SetActive(false);
+        }
+
+        if (Symbol2 == "Diamond")
+        {
+            Diamond2.SetActive(true);
+        }
+        else
+        {
+            Diamond2.SetActive(false);
+        }
+
+        if (Symbol2 == "Ace")
+        {
+            Ace2.SetActive(true);
+        }
+        else
+        {
+            Ace2.SetActive(false);
+        }
+
+        if (Symbol2 == "7")
+        {
+            Seven2.SetActive(true);
+        }
+        else
+        {
+            Seven2.SetActive(false);
         }
 
         //if (gameObject.CompareTag("3"))
@@ -158,6 +358,69 @@ public class ChanceTable : MonoBehaviour
             }
         }
 
+        if (Symbol3 == "Berry")
+        {
+            Berry3.SetActive(true);
+        }
+        else
+        {
+            Berry3.SetActive(false);
+        }
+
+        if (Symbol3 == "Aples")
+        {
+            Apple3.SetActive(true);
+        }
+        else
+        {
+            Apple3.SetActive(false);
+        }
+
+        if (Symbol3 == "Coins")
+        {
+            Coin3.SetActive(true);
+        }
+        else
+        {
+            Coin3.SetActive(false);
+        }
+
+        if (Symbol3 == "Orange")
+        {
+            Orange3.SetActive(true);
+        }
+        else
+        {
+            Orange3.SetActive(false);
+        }
+
+        if (Symbol3 == "Diamond")
+        {
+            Diamond3.SetActive(true);
+        }
+        else
+        {
+            Diamond3.SetActive(false);
+        }
+
+        if (Symbol3 == "Ace")
+        {
+            Ace3.SetActive(true);
+        }
+        else
+        {
+            Ace3.SetActive(false);
+        }
+
+        if (Symbol3 == "7")
+        {
+            Seven3.SetActive(true);
+        }
+        else
+        {
+            Seven3.SetActive(false);
+        }
+
         //if (gameObject.CompareTag("4"))
         {
             if (noppa4.Randomice >= a1 && noppa4.Randomice <= a2)
@@ -188,6 +451,69 @@ public class ChanceTable : MonoBehaviour
             {
                 Symbol4 = "7";
             }
+        }
+
+        if (Symbol4 == "Berry")
+        {
+            Berry4.SetActive(true);
+        }
+        else
+        {
+            Berry4.SetActive(false);
+        }
+
+        if (Symbol4 == "Aples")
+        {
+            Apple4.SetActive(true);
+        }
+        else
+        {
+            Apple4.SetActive(false);
+        }
+
+        if (Symbol4 == "Coins")
+        {
+            Coin4.SetActive(true);
+        }
+        else
+        {
+            Coin4.SetActive(false);
+        }
+
+        if (Symbol4 == "Orange")
+        {
+            Orange4.SetActive(true);
+        }
+        else
+        {
+            Orange4.SetActive(false);
+        }
+
+        if (Symbol4 == "Diamond")
+        {
+            Diamond4.SetActive(true);
+        }
+        else
+        {
+            Diamond4.SetActive(false);
+        }
+
+        if (Symbol4 == "Ace")
+        {
+            Ace4.SetActive(true);
+        }
+        else
+        {
+            Ace4.SetActive(false);
+        }
+
+        if (Symbol4 == "7")
+        {
+            Seven4.SetActive(true);
+        }
+        else
+        {
+            Seven4.SetActive(false);
         }
 
         // if (gameObject.CompareTag("5"))
@@ -222,6 +548,69 @@ public class ChanceTable : MonoBehaviour
             }
         }
 
+        if (Symbol5 == "Berry")
+        {
+            Berry5.SetActive(true);
+        }
+        else
+        {
+            Berry5.SetActive(false);
+        }
+
+        if (Symbol5 == "Aples")
+        {
+            Apple5.SetActive(true);
+        }
+        else
+        {
+            Apple5.SetActive(false);
+        }
+
+        if (Symbol5 == "Coins")
+        {
+            Coin5.SetActive(true);
+        }
+        else
+        {
+            Coin5.SetActive(false);
+        }
+
+        if (Symbol5 == "Orange")
+        {
+            Orange5.SetActive(true);
+        }
+        else
+        {
+            Orange5.SetActive(false);
+        }
+
+        if (Symbol5 == "Diamond")
+        {
+            Diamond5.SetActive(true);
+        }
+        else
+        {
+            Diamond5.SetActive(false);
+        }
+
+        if (Symbol5 == "Ace")
+        {
+            Ace5.SetActive(true);
+        }
+        else
+        {
+            Ace5.SetActive(false);
+        }
+
+        if (Symbol5 == "7")
+        {
+            Seven5.SetActive(true);
+        }
+        else
+        {
+            Seven5.SetActive(false);
+        }
+
         //if (gameObject.CompareTag("6"))
         {
             if (noppa6.Randomice >= a1 && noppa6.Randomice <= a2)
@@ -252,6 +641,69 @@ public class ChanceTable : MonoBehaviour
             {
                 Symbol6 = "7";
             }
+        }
+
+        if (Symbol6 == "Berry")
+        {
+            Berry6.SetActive(true);
+        }
+        else
+        {
+            Berry6.SetActive(false);
+        }
+
+        if (Symbol6 == "Aples")
+        {
+            Apple6.SetActive(true);
+        }
+        else
+        {
+            Apple6.SetActive(false);
+        }
+
+        if (Symbol6 == "Coins")
+        {
+            Coin6.SetActive(true);
+        }
+        else
+        {
+            Coin6.SetActive(false);
+        }
+
+        if (Symbol6 == "Orange")
+        {
+            Orange6.SetActive(true);
+        }
+        else
+        {
+            Orange6.SetActive(false);
+        }
+
+        if (Symbol6 == "Diamond")
+        {
+            Diamond6.SetActive(true);
+        }
+        else
+        {
+            Diamond6.SetActive(false);
+        }
+
+        if (Symbol6 == "Ace")
+        {
+            Ace6.SetActive(true);
+        }
+        else
+        {
+            Ace6.SetActive(false);
+        }
+
+        if (Symbol6 == "7")
+        {
+            Seven6.SetActive(true);
+        }
+        else
+        {
+            Seven6.SetActive(false);
         }
 
         //if (gameObject.CompareTag("7"))
@@ -318,6 +770,69 @@ public class ChanceTable : MonoBehaviour
             }
         }
 
+        if (Symbol8 == "Berry")
+        {
+            Berry8.SetActive(true);
+        }
+        else
+        {
+            Berry8.SetActive(false);
+        }
+
+        if (Symbol8 == "Aples")
+        {
+            Apple8.SetActive(true);
+        }
+        else
+        {
+            Apple8.SetActive(false);
+        }
+
+        if (Symbol8 == "Coins")
+        {
+            Coin8.SetActive(true);
+        }
+        else
+        {
+            Coin8.SetActive(false);
+        }
+
+        if (Symbol8 == "Orange")
+        {
+            Orange8.SetActive(true);
+        }
+        else
+        {
+            Orange8.SetActive(false);
+        }
+
+        if (Symbol8 == "Diamond")
+        {
+            Diamond8.SetActive(true);
+        }
+        else
+        {
+            Diamond8.SetActive(false);
+        }
+
+        if (Symbol8 == "Ace")
+        {
+            Ace8.SetActive(true);
+        }
+        else
+        {
+            Ace8.SetActive(false);
+        }
+
+        if (Symbol8 == "7")
+        {
+            Seven8.SetActive(true);
+        }
+        else
+        {
+            Seven8.SetActive(false);
+        }
+
         //if (gameObject.CompareTag("9"))
         {
             if (noppa9.Randomice >= a1 && noppa9.Randomice <= a2)
@@ -348,6 +863,69 @@ public class ChanceTable : MonoBehaviour
             {
                 Symbol9 = "7";
             }
+        }
+
+        if (Symbol9 == "Berry")
+        {
+            Berry9.SetActive(true);
+        }
+        else
+        {
+            Berry9.SetActive(false);
+        }
+
+        if (Symbol9 == "Aples")
+        {
+            Apple9.SetActive(true);
+        }
+        else
+        {
+            Apple9.SetActive(false);
+        }
+
+        if (Symbol9 == "Coins")
+        {
+            Coin9.SetActive(true);
+        }
+        else
+        {
+            Coin9.SetActive(false);
+        }
+
+        if (Symbol9 == "Orange")
+        {
+            Orange9.SetActive(true);
+        }
+        else
+        {
+            Orange9.SetActive(false);
+        }
+
+        if (Symbol9 == "Diamond")
+        {
+            Diamond9.SetActive(true);
+        }
+        else
+        {
+            Diamond9.SetActive(false);
+        }
+
+        if (Symbol9 == "Ace")
+        {
+            Ace9.SetActive(true);
+        }
+        else
+        {
+            Ace9.SetActive(false);
+        }
+
+        if (Symbol9 == "7")
+        {
+            Seven9.SetActive(true);
+        }
+        else
+        {
+            Seven9.SetActive(false);
         }
     }
 }
