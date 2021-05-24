@@ -8,11 +8,6 @@ public class Roll_1 : MonoBehaviour
 
     public int Randomice;
 
-    //private ScoreCount Score;
-   
-
-    public ChanceTable chance;
-
     // Start is called before the first frame update
     void Start()
     {
@@ -20,14 +15,6 @@ public class Roll_1 : MonoBehaviour
         int DeNumber = UnityEngine.Random.Range(1, 101);
         Randomice = DeNumber;
         //chance = GetComponent<ChanceTable>();
-
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-
-        
 
     }
 

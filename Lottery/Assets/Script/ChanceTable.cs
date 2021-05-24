@@ -1,9 +1,11 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class ChanceTable : MonoBehaviour
 {
+
     // Different Squeres
     public string Symbol1;
     public string Symbol2;
@@ -110,13 +112,8 @@ public class ChanceTable : MonoBehaviour
     private int f1 = 91; private int f2 = 96;
     private int g1 = 96; private int g2 = 101;
 
-    void Start()
-    {
-    }
-    
-  
     // Update is called once per frame
-    void Update()
+    void Update() 
     {
 
         if (Input.GetKeyDown(KeyCode.Space))
@@ -736,6 +733,69 @@ public class ChanceTable : MonoBehaviour
             {
                 Symbol7 = "7";
             }
+        }
+
+        if (Symbol7 == "Berry")
+        {
+            Berry7.SetActive(true);
+        }
+        else
+        {
+            Berry7.SetActive(false);
+        }
+
+        if (Symbol7 == "Aples")
+        {
+            Apple7.SetActive(true);
+        }
+        else
+        {
+            Apple7.SetActive(false);
+        }
+
+        if (Symbol7 == "Coins")
+        {
+            Coin7.SetActive(true);
+        }
+        else
+        {
+            Coin7.SetActive(false);
+        }
+
+        if (Symbol7 == "Orange")
+        {
+            Orange7.SetActive(true);
+        }
+        else
+        {
+            Orange7.SetActive(false);
+        }
+
+        if (Symbol7 == "Diamond")
+        {
+            Diamond7.SetActive(true);
+        }
+        else
+        {
+            Diamond7.SetActive(false);
+        }
+
+        if (Symbol7 == "Ace")
+        {
+            Ace7.SetActive(true);
+        }
+        else
+        {
+            Ace7.SetActive(false);
+        }
+
+        if (Symbol7 == "7")
+        {
+            Seven7.SetActive(true);
+        }
+        else
+        {
+            Seven7.SetActive(false);
         }
 
         //if (gameObject.CompareTag("8"))

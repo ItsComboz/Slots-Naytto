@@ -20,10 +20,6 @@ public class ScoreCount : MonoBehaviour
     public int Diamonds = 120;
     public int Sevens = 150;
 
-    // Start is called before the first frame update
-    void Start()
-    {
-    }
 
     public void Update()
     {
@@ -33,7 +29,7 @@ public class ScoreCount : MonoBehaviour
     public void CountScore(ChanceTable Symbs)
     {
 
-        if(Symbs.Symbol1 == Symbs.Symbol2 && Symbs.Symbol2 == Symbs.Symbol3)
+        if (Symbs.Symbol1 == Symbs.Symbol2 && Symbs.Symbol2 == Symbs.Symbol3)
         {
             if (Symbs.Symbol1 == "Berry")
             {
